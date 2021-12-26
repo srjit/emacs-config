@@ -167,3 +167,4 @@ This command does not push text to `kill-ring'."
 ;; Python Ide Keybinding
 (global-set-key (kbd "C-x p") (lambda () (interactive) (load-file "~/.emacs.d/scripts/pyide.el")))
 (global-set-key (kbd "M-.") 'jedi:goto-definition)
+(global-set-key (kbd "C-x j") (lambda () (interactive) (load-file "~/.emacs.d/scripts/org-ipython.el")))

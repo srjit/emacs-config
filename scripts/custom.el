@@ -86,7 +86,7 @@
 (add-to-list 'load-path "/opt/homebrew/Cellar/mu/1.6.10/share/emacs/site-lisp/mu/mu4e")
 (require 'mu4e)
 
-(load-file "~/.emacs.d/scripts/mu4e-dashboard.el")
+;; (load-file "~/.emacs.d/scripts/mu4e-dashboard.el")
 
 (provide 'custom)
 ;;;  custom.el ends here

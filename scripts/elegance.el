@@ -296,6 +296,8 @@ background color that is barely perceptible."
 
 ;; Set theme
 (elegance-light)
+;;(elegance-dark)
+
 
 ;; Structural
 (set-face 'bold                                          'face-strong)

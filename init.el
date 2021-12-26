@@ -36,13 +36,8 @@
 ;;=======================================================================
 
 (package-initialize)
-
-
-
-;; (load-file "~/.emacs.d/scripts/nano.el")
+(load-file "~/.emacs.d/scripts/nano.el")
 (load-file "~/.emacs.d/scripts/custom.el")
-
-
 
 (recentf-mode 1)
 (setq recentf-max-menu-items 10)
@@ -63,7 +58,7 @@
  '(org-export-backends '(ascii html icalendar latex md odt))
  '(org-trello-current-prefix-keybinding "C-c o" nil (org-trello))
  '(package-selected-packages
-   '(nano-theme jupyter gruvbox-theme tao-theme elpy pyenv-mode virtualenv quelpa nano-agenda ts flycheck magit fiplr helm-projectile use-package projectile jedi yasnippet-snippets highlight-indent-guides cdlatex xclip virtualenvwrapper undo-tree smooth-scrolling org-trello company-tabnine))
+   '(jedi nano-theme jupyter gruvbox-theme tao-theme elpy pyenv-mode virtualenv quelpa nano-agenda ts flycheck magit fiplr helm-projectile use-package projectile yasnippet-snippets highlight-indent-guides cdlatex xclip virtualenvwrapper undo-tree smooth-scrolling org-trello company-tabnine))
  '(pdf-view-midnight-colors '("#fdf4c1" . "#32302f"))
  '(vc-annotate-background "#FFFFFD")
  '(vc-annotate-color-map
@@ -93,10 +88,7 @@
  ;; If there is more than one, they won't work right.
  )
 
-;;(add-hook 'after-init-hook 'global-company-mode)
 
-
-;; (setq byte-compile-warnings '(cl-functions))
 (setq sql-mysql-program "/opt/homebrew/bin/mysql")
 
 
